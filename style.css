@@ -4,6 +4,11 @@ body {
   font-family: 'Source Serif Pro', serif;
 }
 
+a {
+  color: #ff7777;
+  text-underline-offset: 1px;
+}
+
 .container {
   max-width: 800px;
   margin: auto;
@@ -50,9 +55,4 @@ body {
   color: #6e6e6e;
   font-size: 13px;
   text-align: end;
-}
-
-a {
-  color: #ff7777;
-  text-underline-offset: 1px;
 }
