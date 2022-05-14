@@ -3,7 +3,7 @@ const paperText = document.querySelector('#paperText')
 
 inputTextArea.addEventListener('keyup', function (e) {
   const textWritten = inputTextArea.value
-  const invertedText = invertText(textWrited) || '...'
+  const invertedText = invertText(textWritten) || '...'
   
   changePaperText(invertedText, paperText)
 })
